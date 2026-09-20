@@ -73,7 +73,7 @@ public class EgbertRescue {
         String rescueCode = "";
         for (int i = 0; i < k; i++) {
             for (int j = 0; j < finalMessage.length() / k; j++) {
-                rescueCode = rescueCode.concat("" + grid[j][i]);
+                rescueCode += grid[j][i];
             }
         }
 
